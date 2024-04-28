@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo/sfox.png">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Sfox Reset</title>
+
+    <style>
+        input[type=text],input[type=submit]{
+            width: 100%;
+            padding: 12px 15px;
+            margin: 8px 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .inputBox{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <!-- 背景颜色 -->
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <!-- 背景圆 -->
+            <div class="circle" style="--x:0"></div>
+            <div class="circle" style="--x:1"></div>
+            <div class="circle" style="--x:2"></div>
+            <div class="circle" style="--x:3"></div>
+            <div class="circle" style="--x:4"></div>
+            <!-- 登录框 -->
+            <div class="container">
+                <div class="form">
+                    <h2>Reset</h2>
+                    <form>
+                        <div class="inputBox">
+                            <input type="text" placeholder="用户名">
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" placeholder="邮箱地址">
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" placeholder="验证码">
+                            <input type="submit" value="获取验证码">
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="密码"> 
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="二次确认密码"> 
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="重置">
+                        </div>
+                        <p class="forget">
+                            <a href="./login.html">
+                                返回登录
+                            </a>
+                        </p>
+                        <p class="forget">
+                            没有账户?
+                            <a href="./register.html">
+                                注册
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
